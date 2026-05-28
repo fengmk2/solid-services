@@ -1,6 +1,5 @@
 catalog:
   vite: "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@5577b0154f33d1480a3c96347e94fa5d2094de2e"
-  vitest: ^4.1.5
   vite-plus: "https://pkg.pr.new/voidzero-dev/vite-plus@1588"
 blockExoticSubdeps: false
 minimumReleaseAge: 60
