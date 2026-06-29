@@ -41,13 +41,14 @@
     "prepublishOnly": "pnpm run build",
     "build": "vp pack",
     "dev": "vp pack --watch",
-    "release": "release-it"
+    "release": "release-it",
+    "prepare": "vp config"
   },
   "dependencies": {
     "@solid-primitives/rootless": "^1.5.3"
   },
   "devDependencies": {
-    "@vitest/ui": "^4.1.4",
+    "@vitest/ui": "4.1.9",
     "release-it": "^19.2.4",
     "solid-js": "^1.9.12",
     "typescript": "^6.0.2",
